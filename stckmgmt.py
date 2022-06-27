@@ -597,7 +597,7 @@ b=input('Enter mysql password:')
 
 if a=='root' and b=='abcd':
     print('Congrats!! Your MySQL connection established..')
-    print('\n\tNote: Please setup database if using for first time, else ignore :)')
+    print('\n\tNote: Please create tables from database setup if using for the first time, else ignore :)')
     while True:
         print('-'*133)
         print('\t\t\t*****************')
